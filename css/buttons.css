@@ -1,0 +1,141 @@
+.button-card {
+    border: solid 2px #639eaa;
+    color: #000;
+    background-color: transparent;
+    height: 30px;
+    width: 40%;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Buttons Topbar and Back-Button */
+.navbar a:visited {
+    color: #000;
+}
+
+.navbar a:after {
+    color: #000;
+}
+
+.navbar a:link {
+    color: #000;
+}
+
+.navbar {
+    font-weight: 600;
+    color: #000;
+    padding: 0 8px;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+}
+
+.navbar:hover {
+    border-bottom: 2px solid #fdbc2c;
+}
+
+.navbar:active {
+    border-bottom: 2px solid #fdbc2c;
+}
+
+.navbar:visited {
+    color: #000;
+}
+
+.navbar:before {
+    color: #000;
+}
+
+/* Button Sidebar */
+.sidebar {
+    font-weight: 600;
+    color: #fff;
+    padding: 0 8px;
+    border-bottom: 2px solid #639eaa;
+    text-transform: uppercase;
+}
+
+.sidebar:hover {
+    border-bottom: 2px solid #fdbc2c;
+}
+
+.sidebar:active {
+    border-bottom: 2px solid #fdbc2c;
+}
+
+.sidebar:visited {
+    color: #fff;
+}
+
+.sidebar:before {
+    color: #fff;
+}
+
+.sidebar a:visited {
+    color: #fff;
+}
+
+.sidebar a:after {
+    color: #fff;
+}
+
+.sidebar a:link {
+    color: #fff;
+}
+
+/* Social Media Buttons */
+.social-media-text {
+    display: flex;
+}
+
+.social-media-text-a {
+    color: #fff;
+    padding: 20px;
+}
+
+.social-media {
+    display: flex;
+}
+
+/* Buttons and Links Design Components - only to show */
+.design-content {
+    border-bottom: 2px solid #eee;
+}
+
+.design-content-hover {
+    border-bottom: 2px solid #fdbc2c;
+}
+
+.sidebar-content {
+    border-bottom: 2px solid #eee;
+}
+
+.sidebar-content-hover {
+    border-bottom: 2px solid #fdbc2c;
+}
+
+.source {
+    display: block;
+}
+
+.source a {
+    color: #000;
+}
+
+.source a:visited {
+    color: #000;
+}
+
+.source a:after {
+    color: #000;
+}
+
+.source a:link {
+    color: #000;
+}

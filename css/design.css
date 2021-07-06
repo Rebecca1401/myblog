@@ -1,0 +1,163 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    text-decoration: #fdbc2c underline;
+}
+
+dt {
+    font-weight: 100;
+}
+
+dd {
+    padding-bottom: 10px;
+    margin-inline-start: 20px;
+    hyphens: auto;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+figure {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+figcaption {
+    text-align: right;
+}
+
+/* Header */
+.logo {
+    width: 100px;
+    height: 75px;
+}
+
+/* Footer */
+.footer {
+    background-color: #414141;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+/* dl Class*/
+.text-info {
+    padding: 10px;
+    text-align: left;
+}
+
+/*Blogpost*/
+.img-blog {
+    width: 100%;
+}
+
+.blogpost {
+    hyphens: auto;
+    text-align: justify;
+}
+
+.blockquote-wrapper {
+    display: flex;
+    padding: 0 20px;
+}
+
+.blockquote {
+    position: relative;
+    font-weight: 800;
+    color: #fdbc2c;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+}
+
+.blockquote h1 {
+    position: relative;
+    color: #639eaa;
+    line-height: 1;
+    margin: 0;
+}
+
+.blockquote:after {
+    position: absolute;
+    content: "”";
+    color: #639eaa;
+    font-size: 10rem;
+    line-height: 0;
+    bottom: -43px;
+    right: 30px;
+}
+
+.blockquote h4 {
+    position: relative;
+    color: #414141;
+    line-height: 1;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+/*Design System*/
+.color-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    margin: 2em auto;
+    grid-gap: 2em;
+}
+
+.color-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.font-color {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-color {
+    background-color: #414141;
+    color: #fff;
+}
+
+.yellow-color {
+    background-color: #fdbc2c;
+    color: #fff;
+}
+
+.cyan-color {
+    background-color: #639eaa;
+    color: #fff;
+}
+
+.gray-color {
+    border: 1px solid #000;
+    color: #000;
+}
+
+/* Media Queries */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 60px;
+    }
+}
+
+@media(min-width:1100px) {
+    .color-content {
+        display: flex;
+        justify-content: center;
+    }
+}
